@@ -1,0 +1,4 @@
+MyGo sample loader.py
+model.model compile()        #1
+model.model fit(batch size = 16 * 2,epochs = 10000,earlystop = 10,checkpoint = True)  #2
+model.model save(type + '.h5')  #3
