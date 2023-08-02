@@ -1,0 +1,15 @@
+_a[_size] = x;
+		_size++;
+	}
+	void Print()
+	{
+		for (int i = 0; i < _size; i++)
+		{
+			cout << _a[i] << " ";
+		}
+	}
+private:
+	int* _a;
+	int _size;
+	int _capcity;
+};
