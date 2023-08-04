@@ -1,0 +1,4 @@
+    <mvc:interceptor>
+        <mvc:mapping path="/**"/>
+        <bean class="com.example.interceptor.SensitiveWordInterceptor"/>
+    </mvc:interceptor>
