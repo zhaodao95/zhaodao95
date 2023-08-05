@@ -1,0 +1,4 @@
+List<Integer> distinctList = numbers.stream()
+                .distinct()
+                .collect(Collectors.toList());
+        System.out.println("Distinct List: " + distinctList);
