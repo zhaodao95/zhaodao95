@@ -1,0 +1,11 @@
+
+	str = GetMemory();
+	printf(str);
+}
+ 
+int main()
+{
+	Test();
+	return 0;
+}
+ 
