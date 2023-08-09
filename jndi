@@ -1,0 +1,15 @@
+public class CDSBillingSubscriber 
+extends CDSAbstractBillingSubscriber 
+{ 
+  public CDSBillingSubscriber( 
+    String clientID, 
+    String subName, 
+    String selector, 
+    boolean durable, 
+    boolean transactional, 
+    String jndiCtxFactory, 
+    String connFactory, 
+    String providerURL, 
+    String topicName) 
+  throws Exception 
+  { 
