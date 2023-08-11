@@ -1,0 +1,8 @@
+SELECT course.cid teacher.name FROM `course` LEFT JOIN `teacher` ON course.teacher_id =teacher.tid;
+| cid | name    |
+|-----|---------|
+| 1   | Smith   |
+| 2   | Johnson |
+| 3   | Lee     |
+| 4   | Smith   |
+| 5   | NULL    |
