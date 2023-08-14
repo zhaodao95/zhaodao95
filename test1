@@ -1,0 +1,8 @@
+void test1(int x, int y)
+{}
+void test2()
+{}
+int main()
+{
+	test1(3, 4)
+	test2()
