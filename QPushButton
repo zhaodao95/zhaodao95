@@ -1,0 +1,27 @@
+#pragma once
+ 
+#include <QtWidgets/QWidget>
+#include "ui_finddialog.h"
+#include <QPushButton>
+#include <QMessageBox>
+#include <QRandomGenerator>
+ 
+class Finddialog : public QWidget
+{
+    Q_OBJECT
+ 
+public:
+    Finddialog(QWidget *parent = Q_NULLPTR);
+private:
+    Ui::FinddialogClass* ui;
+    QPushButton* closeButton;
+    QMessageBox* info_box = NULL;
+    QPushButton* misc_button;
+signals:
+    void misc_clicked(const QString& num);
+public slots:
+    void shutdown_window();
+    void close_window();
+    void send_misc_clicked();
+    void misc_change(const QString& num_str);
+};
